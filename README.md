@@ -177,8 +177,6 @@ POST /aggregator/consumption/train/short-term?horizon=8
 
 ---
 
-## 1.8 Pre-Demo Phase (WP5 Related)
-
 ### Aggregator – Overview
 Displays total demand, total production, net energy balance, and user distribution (consumers, prosumers, community members).  
 
