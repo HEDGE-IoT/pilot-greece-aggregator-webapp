@@ -1,6 +1,6 @@
 # Web App for Aggregator
 
-## 1.1 General Information and Purpose
+## General Information and Purpose
 - **Service Name/Title:** Web App for Aggregator  
 - **Description and purpose:**  
 The Aggregator Web App is a centralised platform for energy data monitoring, analytics, and forecasting. It aggregates data from IoT-enabled Distributed Energy Resources (DERs) and provides real-time and historical insights into energy consumption and production. The platform supports model training, forecasting, and anomaly detection for smart grid applications.  
@@ -8,7 +8,7 @@ The Aggregator Web App is a centralised platform for energy data monitoring, ana
 
 ---
 
-## 1.2 Functional Requirements
+## Functional Requirements
 - Aggregate real-time and historical energy consumption and production data from multiple households and devices  
 - Train forecasting models (short-term and 24-hour) based on historical data  
 - Perform recursive and non-recursive forecasts  
@@ -19,7 +19,7 @@ The Aggregator Web App is a centralised platform for energy data monitoring, ana
 
 ---
 
-## 1.3 Non-Functional Requirements
+## Non-Functional Requirements
 
 ### Performance
 - Real-time data ingestion latency < 2s  
@@ -37,9 +37,9 @@ The Aggregator Web App is a centralised platform for energy data monitoring, ana
 
 ---
 
-## 1.4 Service Interfaces
+## Service Interfaces
 
-### 1.4.1 API Endpoints
+### API Endpoints
 
 #### Endpoint 1 — Train Consumption Model for Next 24 Hours Predictions
 - **URL:** `/aggregator/consumption/train/next-24-hours`  
@@ -113,12 +113,12 @@ POST /aggregator/consumption/train/short-term?horizon=8
 
 ---
 
-### 1.4.2 UI Mock-ups
+### UI Mock-ups
 - Overview, Real-Time Monitoring, Historical Statistics, Forecasts — included in Section 1.8.  
 
 ---
 
-## 1.5 Data Model
+## Data Model
 
 ### Entities and Relationships
 - **Users ↔ Houses:** Many-to-many.  
@@ -134,7 +134,7 @@ POST /aggregator/consumption/train/short-term?horizon=8
 
 ---
 
-## 1.6 Integration and Dependencies
+## Integration and Dependencies
 
 ### External Dependencies
 - Weather APIs  
@@ -161,7 +161,7 @@ POST /aggregator/consumption/train/short-term?horizon=8
 
 ---
 
-## 1.7 Security and Privacy
+## Security and Privacy
 
 ### Data Sensitivity
 - Personal identifiable information minimized  
